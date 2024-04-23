@@ -26,6 +26,7 @@ A table satisfies the first normal form when:
 ## Second normal form (2NF)
 
 > non-key attributes depend on *the whole key*
+> condition on the non-key
 
 ![2NF](images/2NF.png)
 
@@ -37,6 +38,7 @@ A 1NF-satisfying table satisfies the second normal form when:
 ## Third normal form (3NF)
 
 >  “[Every] non-key [attribute] must provide a fact about the key, the whole key, and nothing but the key”
+> condition on the key
 
 ![3NF](images/3NF.png)
 
