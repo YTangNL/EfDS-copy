@@ -145,3 +145,5 @@ class KerasProfiling:
     def evaluate(self, verbose=0):
         return self.model.evaluate(self.x_test, self.y_test_oh, verbose=verbose)
 
+
+#%%
